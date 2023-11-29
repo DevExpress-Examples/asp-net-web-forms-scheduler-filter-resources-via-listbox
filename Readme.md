@@ -31,7 +31,7 @@ protected void Page_Init(object sender, EventArgs e) {
 }
 ```
 
-To run this example, you should register the **CarsXtraScheduling** data base in your local SQL Server instance. You can download the corresponding SQL scripts from the following example: [How to bind a scheduler to a MS SQL Server database](https://github.com/DevExpress-Examples/asp-net-web-forms-scheduler-bind-to-sql).
+To run this example, you should register the **CarsXtraScheduling** database in your local SQL Server instance. You can download the corresponding SQL scripts from the following example: [How to bind a scheduler to an MS SQL Server database](https://github.com/DevExpress-Examples/asp-net-web-forms-scheduler-bind-to-sql).
 
 ## Files to Review
 
