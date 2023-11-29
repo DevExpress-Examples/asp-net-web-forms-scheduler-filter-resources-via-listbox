@@ -5,7 +5,7 @@
 
 # Scheduler for ASP.NET Web Forms - How to use ASPxListBox to filter resources
 
-This example illustrates how to use a checked box list to implement resource filtering at a data source level. The checked box list is implemented by the [ASPxListBox](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxListBox) control with the [SelectionMode](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxListBox.SelectionMode) property set to `CheckColumn`. The list box is bound to a resource data source. When the list box selection changes, the scheduler sends a custom `FLTRES` [callback command](https://docs.devexpress.com/AspNet/5462/components/scheduler/concepts/callback-commands).
+This example illustrates how to use a check box list to implement resource filtering at the data source level. The check box list is implemented by the [ASPxListBox](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxListBox) control with the [SelectionMode](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxListBox.SelectionMode) property set to `CheckColumn`. The list box is bound to a resource data source. When the list box selection changes, the scheduler sends a custom `FLTRES` [callback command](https://docs.devexpress.com/AspNet/5462/components/scheduler/concepts/callback-commands).
 
 ```aspx
 <dxe:ASPxListBox ID="lbResources" ...>
